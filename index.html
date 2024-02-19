@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/base/reset.css">
     <link rel="stylesheet" href="./css/base/layout.css">
     <link rel="stylesheet" href="./css/components/list.css">
-    <link rel="stylesheet" href="./css/pages/home.css">
+    <!-- <link rel="stylesheet" href="./css/pages/home.css"> -->
     <!-- script: analitics -->
 </head>
 
@@ -16,14 +16,14 @@
     <main class="container">
        <div class="row">
         <div>
-          <h1>Kaip gaminami blynai?</h1>
+          <h1 id ="title">Kaip gaminami blynai?</h1>
           <p>šie blynai patys skaniausi</p>
        </div>
        </div>
-       <div class="row">
+       <div id = "content" class="row">
          <div class="column">
             <h2>Ingridientai</h2>
-            <ul>
+            <ul class="list">
              <li>Miltai</li>
              <li>Druska</li>
              <li>Vanduo</li>
@@ -32,7 +32,7 @@
          </div>
        <div class="column">
            <h2>Iranga</h2>
-           <ul>
+           <ul class="list">
             <li>Mikseris</li>
             <li>Keptuve</li>
             <li>Saukstas</li>
@@ -41,8 +41,7 @@
        </div>
       </div>
     </main>
-    <script src="./js/components/daugyba.js" type="module" defer></script>
-    <script src="./js/components/sum.js" type="module" defer></script>
     <script src="./js/main.js" type="module" defer></script>
+
 </body>
 </html>
