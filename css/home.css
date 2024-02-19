@@ -1,0 +1,9 @@
+.main.title {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+ul:nth-of-type(1) > li {
+    background-color: red;
+}
+/* iesko nurodyto tipo tag tevo atzvilgiu */

@@ -12,6 +12,7 @@ console.log (ulDom[0])
 
 // let HTML = '';
 // for (const item of data1){
+    // if(item.trim().length===0){continue}
 //     HTML += `<li>${item}</li>`;
 // }
 // ulDom[0].innerHTML = HTML;
@@ -22,6 +23,9 @@ console.log (ulDom[0])
 // }
 
 // ulDom[1].innerHTML = HTML1;
+
+// listdom  - elementas kuriame generuojamas listas
+// data - kas bus i list dedama 
 
 function renderList (listDom,data){
     let HTML = '';
