@@ -6,7 +6,8 @@ const data = [
 {title: 'iranga',
     list: ['mikseris','  ', 'keptuve','lekste'],
 
-}
+},
+
 ]
 
 const contentDom = document.getElementById('content')
@@ -35,3 +36,4 @@ for (const column of data){
 
 contentDom .innerHTML = HTML;
 }
+
